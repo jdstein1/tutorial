@@ -3,3 +3,8 @@ This is a CSS file
 */
 
 body {background: purple;}
+header, main, footer {background: white; padding:1em; margin:1em;}
+nav ul {list-style-type: none; list-style-image: none; list-style-position: inside; text-indent: 0; margin:0; padding:0;}
+nav ul li {display: inline-block; text-indent: 0; margin:0; padding:0;}
+nav ul li a {padding:1em;}
+.active {background: yellow;}

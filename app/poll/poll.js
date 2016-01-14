@@ -2,6 +2,6 @@
 This is a JS file
 */
 
-var message = 'Hello World!';
+var message = 'Let\'s take a poll!';
 
 console.log(message);
