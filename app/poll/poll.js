@@ -2,6 +2,18 @@
 This is a JS file
 */
 
-var message = 'Let\'s take a poll!';
+console.group('START POLL');
 
-console.log(message);
+var message = 'Let\'s take a poll!';
+console.log('message: ',message);
+
+var printMsg = function (msg) {
+
+  var msgbox = document.getElementById("id6457389");
+  console.log('msgbox: ',msgbox);
+
+  msgbox.innerHTML = '<p>'+msg+'</p>';
+
+}
+
+console.groupEnd();

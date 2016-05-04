@@ -2,6 +2,18 @@
 This is a JS file
 */
 
-var message = 'Hello World!';
+console.group('START APP');
 
-console.log(message);
+var message = 'Hello World!';
+console.log('message: ',message);
+
+var printMsg = function (msg) {
+
+  var msgbox = document.getElementById("id98457");
+  console.log('msgbox: ',msgbox);
+
+  msgbox.innerHTML = '<p>'+msg+'</p>';
+
+}
+
+console.groupEnd();
